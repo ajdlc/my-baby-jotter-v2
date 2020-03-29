@@ -1,0 +1,83 @@
+body {
+    background-image: url('../images/background.jpg');
+    /* background-position: top; */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bannerBorder {
+    border-top: 10px solid white;
+    border-bottom: 10px solid white;
+}
+
+.testB {
+    border: 2px solid black;
+}
+
+.nameBox {
+    border: 5px solid white;
+    background-color: rgba(255, 255, 255, 0.144);
+}
+
+.babyNameLink {
+    color: rgba(78, 83, 153, 1);
+    font-size: 5rem;
+    /* position: absolute; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.babyNameLink:hover {
+    color: rgba(78, 83, 153, 0.5);
+}
+
+.babyName {
+    color: rgba(78, 83, 153, 1);
+    font-size: 5rem;
+    /* position: absolute; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+#babyIconContainer a {
+    /* border: 5px solid white;
+    background-color: rgba(65, 65, 65, 0.192); */
+    color: rgb(78, 83, 153);
+    text-decoration: none;
+}
+
+#babyIconContainer a:hover {
+    text-decoration: none;
+}
+
+.babyBtns {
+    transition: all 300ms ease-in-out;
+    opacity: 0.75;
+}
+
+.babyBtns:hover {
+    transform: scale(1.15);
+    opacity: 1;
+    /* background-color: black; */
+}
+
+.textPrimary {
+    color: rgb(78, 83, 153);
+}
+
+.customBtn {
+    border: 2px solid white;
+    color: rgba(255, 255, 255, 0.144);
+
+    transition: transform 150ms ease-in-out;
+}
+
+.customBtn:hover {
+    transform: scale(1.05);
+}
+
+.historyBox {
+    border: 5px solid white;
+}
