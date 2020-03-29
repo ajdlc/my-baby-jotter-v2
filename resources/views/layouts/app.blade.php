@@ -27,8 +27,17 @@
         <!-- Banner Section -->
         <section id="bannerSection">
             <div class="container mt-3">
-                <div class="row text-center justify-content-end bannerBorder">
-                    <div class="col-2 order-2 align-self-start">
+                <div class="row text-center justify-content-center bannerBorder">
+                    <div class="col-md-2 d-none d-md-flex align-self-start">
+                        <a href="/babies" class="btn btn-block link text-white customBtn textPrimary mt-3">
+                            Home
+                        </a>
+                    </div>
+                    <!-- Banner Picture -->
+                    <div class="col-8">
+                        <img src="/images/_0005_Logo.png" alt="My Baby Jotter Logo" class="img-fluid" id="banner" class="p-3" height="250">
+                    </div>
+                    <div class="col-2">
                         @guest
                             <a class="btn btn-block btn-light textPrimary mt-3" href="{{ route('login') }}">{{ __('Login') }}</a>
                             @if (Route::has('register'))
@@ -51,9 +60,6 @@
 
                                     </div> -->
                         @endguest
-                    </div>
-                    <div class="col-9 order-1">
-                        <img src="/images/_0005_Logo.png" alt="My Baby Jotter Logo" id="banner" class="p-3" height="250">
                     </div>
                 </div>
             </div>
