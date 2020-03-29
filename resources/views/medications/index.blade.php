@@ -52,7 +52,7 @@
     <!-- Back Button -->
     <div class="row justify-content-center mt-5">
         <div class="col">
-            <a href="/babies/{{ $med->baby_id }}" class="btn btn-light btn-block shadow textPrimary">Back</a>
+            <a href="/babies/{{ $baby_id }}" class="btn btn-light btn-block shadow textPrimary">Back</a>
         </div>
     </div>
 
